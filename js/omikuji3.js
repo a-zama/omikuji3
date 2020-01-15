@@ -13,7 +13,7 @@
 
     btn.addEventListener( 'click' , () => {
         document.getElementById('result').src ="image/omikuji.png";
-        p.textContent = クリックして運試し;
+        p.textContent = 'クリックして運試し';
         
     })
 
