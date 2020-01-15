@@ -1,0 +1,35 @@
+body {
+    background: #efefef;
+}
+
+#box {
+    width: 400px;
+    height: 400px;
+    /*background: #000000;*/
+    margin: 50px auto;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#box:hover {
+    opacity: 0.9;
+}
+
+#box:active {
+    margin-top: 35px;
+}
+
+#p {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#reset {
+    margin: 0 auto;
+    text-align: center;
+}
